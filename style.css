@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+
+body {
+  background: linear-gradient(236.85deg, #FF4500 27.26%, #191970 96.03%);
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.container {
+  background: #ECF4FF;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  color: #1C1C1C;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between
+  
+}
+
+.perfil {
+  display: flex;    
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;  
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;  
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.icones a {
+  color: #000000;
+  text-decoration: none;  
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 16px; 
+  background: #FFE4B5;
+  border-radius: 100px;
+  font-family: 'Balsamiq Sans';
+  border: 1px solid #0E1D2F;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #FF7F50 27.49%, #836FFF 83.19%);
+  color: #1c1c1c;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px; 
+  list-style: none;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;  
+}
+
+.projetos-item a {
+  color: #1C1C1C;
+  text-decoration: none;  
+}
+
+.icones a {
+  color: #1c1c1c;
+  font-size: 25px;
+}
+
+.footer {
+  font-size: 16px;
+  text-align: center;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #1C1C1C 27.26%, #808080 96.03%);
+}
+
+.dark .container {
+  background: #000000;
+  color: #D3D3D3;
+  box-shadow: 2px 2px 4px rgba(117, 117, 117, 0.8);
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+  box-shadow: 2px 2px 4px rgba(117, 117, 117, 0.8);
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #D3D3D3;
+  font-family: 'Balsamiq Sans';
+  border: 1px solid #FF4500;
+  box-shadow: 2px 2px 4px rgba(117, 117, 117, 0.8);
+}
+
+.dark .icones a {
+  color: #D3D3D3;
+  font-size: 25px;
+}
